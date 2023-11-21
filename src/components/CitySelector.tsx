@@ -4,6 +4,7 @@ import { Row, FormControl, Button } from 'react-bootstrap';
 const CitySelector = ({ onClick }) => {
   const [city, setCity] = React.useState('Сочи');
   const [flag, setFlag] = React.useState(false);
+  //const a : Boolean | String = false
 
   return (
     <>
